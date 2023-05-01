@@ -5,4 +5,4 @@ When starting with a list of units, I recommend using the add rows VBA for the a
 
 I then recommend taking your list of years(/dates/other) and entering it into the first unit. Then, use the Paste Down N Times VBA to paste it for your remaining units. 
 
-This will provide you with your full shell data. This is particulary useful with spatial data that has thousands of units that you want to capture in various time increments. 
+Simply adjust the numbers in the macro accordingly. This will provide you with your full shell data. This is particulary useful with spatial data that has thousands of units that you want to capture in various time increments. 
