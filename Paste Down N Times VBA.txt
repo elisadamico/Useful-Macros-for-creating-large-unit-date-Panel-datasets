@@ -1,0 +1,1 @@
+Sub RunMe()Dim x, dRow, Counter As IntegerCounter = InputBox("How many times would you like to paste?:")dRow = 25Range("B1:B24").CopyFor x = 1 To Counter    Range("B" & dRow).PasteSpecial    dRow = dRow + 24Next xApplication.CutCopyMode = FalseEnd Sub
